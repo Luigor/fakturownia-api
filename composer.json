@@ -1,0 +1,26 @@
+{
+  "name": "luigor/fakturownia",
+  "description": "PHP client that provides a simple connection with API Fakturowania.pl using Guzzle",
+  "keywords": [
+    "fakturownia",
+    "fakturownia api"
+  ],
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Luigor\\Fakturownia\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Luigor\\Fakturownia\\Tests\\": "tests/"
+    }
+  }
+}
